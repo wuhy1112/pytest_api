@@ -21,6 +21,6 @@ discover = unittest.defaultTestLoader.discover(contants.case_dir, "test_*.py")
 with open(contants.report_dir + '/report.html', 'wb+') as file:
     runner = HTMLTestRunnerNew.HTMLTestRunner(stream=file,
                                               title="PYTHON15 API TEST REPORT",
-                                              description="q前程贷API",
-                                              tester="mongo")
+                                              description="前程贷API",
+                                              tester="tester")
     runner.run(discover)
