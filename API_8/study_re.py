@@ -12,6 +12,7 @@ from API_8.common.config import config
 data = '{"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}'
 # 原本字符,元字符
 p = "#(.*?)#"  # 正则表达式
+
 # ms = re.findall(p, data)  # 查找全部，返回列表
 # print(ms)
 # m = re.search(p, data)  # 从任意位置开始找，找第一个就返回Match object, 如果没有找None
